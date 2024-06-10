@@ -9,8 +9,11 @@
   },
   "build": {
     "appId": "zteManager",
-    "win": {
-      "target": "portable"
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ]
     }
   },
   "author": "",
